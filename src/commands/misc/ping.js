@@ -6,6 +6,6 @@ module.exports = {
   // options: Object[],
   
   callback: (client, interaction) => {
-    interaction.reply('Pong!')
+    interaction.reply(`Pong! ${client.ws.ping}ms`)
   }
 }
