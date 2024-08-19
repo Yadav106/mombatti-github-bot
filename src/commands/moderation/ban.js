@@ -5,7 +5,7 @@ module.exports = {
   description: "bans a member!!!",
   // devOnly: Boolean,
   // testOnly: Boolean,
-  // deleted: true,
+  deleted: true,
   options: [
     {
       name: "target-user",
